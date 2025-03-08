@@ -3,6 +3,7 @@ try:
     from moviepy import VideoFileClip
 except ImportError:
     print("Run this command pip3 install -U -r requirements.txt")
+    return None
         
 
 class VideoToAudioConverter:

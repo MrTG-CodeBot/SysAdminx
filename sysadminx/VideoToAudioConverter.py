@@ -1,10 +1,5 @@
 import os
-try:
-    from moviepy import VideoFileClip
-except ImportError:
-    print("Run this command pip3 install -U -r requirements.txt")
-    exit()
-        
+from moviepy import VideoFileClip
 
 class VideoToAudioConverter:
     def __init__(self):

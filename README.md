@@ -58,15 +58,12 @@ Downloads audio from YouTube videos and converts them to MP3 or WAV format.
 ```python
 from YtAudioDownloader import YtAudioDownloader
 
-# Initialize the downloader
 downloader = YtAudioDownloader()
 
-# Download audio from a YouTube video
 video_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 output_directory = "./downloads"
 audio_format = "mp3"  # or "wav"
 
-# Download and convert
 downloader.download_youtube_audio(video_url, output_directory, audio_format)
 ```
 
@@ -77,14 +74,11 @@ Converts between media formats of the same type (photo-to-photo, video-to-video,
 ```python
 from FormatChanger import FormatChanger
 
-# Initialize the format changer
 converter = FormatChanger()
 
-# Convert an audio file from one format to another
 input_file = "./downloads/audio.m4a"
 output_file = "./downloads/audio.mp3"
 
-# Perform the conversion
 success = converter.convert_format(input_file, output_file)
 
 if success:
@@ -100,14 +94,11 @@ Downloads media from Instagram posts, reels, stories, and IGTV.
 ```python
 from InstaMediaDownloader import InstaMediaDownloader
 
-# Initialize the downloader
 insta_downloader = InstaMediaDownloader()
 
-# Download a post
 post_url = "https://www.instagram.com/p/EXAMPLE_POST_ID/"
 output_directory = "./instagram_downloads"
 
-# Download the post
 insta_downloader.download_instagram_media(
     post_url, 
     output_directory,
@@ -116,11 +107,9 @@ insta_downloader.download_instagram_media(
     delete_txt_files=True     # Delete text files after download
 )
 
-# Download a reel
 reel_url = "https://www.instagram.com/reel/EXAMPLE_REEL_ID/"
 insta_downloader.download_instagram_media(reel_url, output_directory)
 
-# Download a story
 story_url = "https://www.instagram.com/stories/username/EXAMPLE_STORY_ID/"
 insta_downloader.download_instagram_media(story_url, output_directory)
 ```
@@ -132,14 +121,11 @@ Extracts audio from video files.
 ```python
 from VideoToAudioConverter import VideoToAudioConverter
 
-# Initialize the converter
 converter = VideoToAudioConverter()
 
-# Convert a video file to audio
 video_path = "./videos/example.mp4"
 audio_path = "./audio/example.mp3"
 
-# Perform the conversion
 output_path, success, error_message = converter.convert_to_audio(video_path, audio_path)
 
 if success:
@@ -147,3 +133,7 @@ if success:
 else:
     print(f"Error: {error_message}")
 ```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

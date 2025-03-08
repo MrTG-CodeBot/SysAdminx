@@ -46,6 +46,8 @@ A comprehensive Python toolkit for downloading and converting various media type
 ```shellscript
 git clone https://github.com/MrTG-CodeBot/SysAdminx.git
 cd SysAdminx
+pip3 install -U -r requirements.txt
+python3 main.py
 ```
 
 2. Install the required dependencies:

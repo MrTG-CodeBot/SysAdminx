@@ -1,6 +1,5 @@
 from colorama import Fore , Style , init
 import time
-from sysadminx import VideoToAudioConverter
 
 init(autoreset=True)
 
@@ -24,6 +23,7 @@ for line in text.splitlines():
 
 choice = input("Enter your choice: ")
 if choice == "1":
+    from sysadminx import VideoToAudioConverter
     converter = VideoToAudioConverter()
 
     video_path = input("Enter the path to the video file: ")

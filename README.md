@@ -3,10 +3,6 @@
 
 A comprehensive Python toolkit for downloading and converting various media types including YouTube audio, Instagram media, and video-to-audio conversion.
 
-Thought for 1 second### Media Downloader & Converter Toolkit
-
-A comprehensive Python toolkit for downloading and converting various media types including YouTube audio, Instagram media, and video-to-audio conversion.
-
 ## Table of Contents
 
 - [Features](#features)

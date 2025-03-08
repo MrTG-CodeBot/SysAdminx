@@ -34,42 +34,6 @@ A comprehensive Python toolkit for downloading and converting various media type
 - Extract audio from video files
 - Simple and easy-to-use API
 
-
-## Installation
-
-1. Clone the repository:
-2. Thought for 1 second### Media Downloader & Converter Toolkit
-
-A comprehensive Python toolkit for downloading and converting various media types including YouTube audio, Instagram media, and video-to-audio conversion.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Components](#components)
-
-- [YouTube Audio Downloader](#youtube-audio-downloader)
-- [Format Changer](#format-changer)
-- [Instagram Media Downloader](#instagram-media-downloader)
-- [Video to Audio Converter](#video-to-audio-converter)
-
-
-
-- [Usage Examples](#usage-examples)
-- [Limitations](#limitations)
-- [Contributing](#contributing)
-- [License](#license)
-
-
-## Features
-
-- Download audio from YouTube videos in MP3 or WAV format
-- Convert between media formats (photos, videos, audio)
-- Download Instagram posts, reels, stories, and IGTV videos
-- Extract audio from video files
-- Simple and easy-to-use API
-
-
 ## Installation
 
 1. Clone the repository:

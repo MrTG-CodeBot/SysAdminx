@@ -28,7 +28,6 @@ A comprehensive Python toolkit for downloading and converting various media type
 - Convert between media formats (photos, videos, audio)
 - Download Instagram posts, reels, stories, and IGTV videos
 - Extract audio from video files
-- Simple and easy-to-use API
 
 ## Installation
 
@@ -36,8 +35,8 @@ A comprehensive Python toolkit for downloading and converting various media type
 
 
 ```shellscript
-git clone https://github.com/yourusername/media-toolkit.git
-cd media-toolkit
+git clone https://github.com/MrTG-CodeBot/SysAdminx.git
+cd SysAdminx
 ```
 
 2. Install the required dependencies:
@@ -46,7 +45,10 @@ cd media-toolkit
 ```shellscript
 pip install pytubefix instaloader moviepy
 ```
-
+or
+```shellscript
+pip3 install -U -r requirements.txt
+```
 ## Components
 
 ### YouTube Audio Downloader

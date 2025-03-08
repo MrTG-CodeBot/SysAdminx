@@ -224,3 +224,5 @@ def m_call():
             print(YT_AUDIO_DOWNLOADER_HELP)
         elif choice == "4":
             print(FORMAT_CHANGER_HELP)
+        else:
+            print("Invalid option")

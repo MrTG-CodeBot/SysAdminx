@@ -6,7 +6,7 @@ from videotoaudio import VideoToAudioConverter
 from insta import InstaMediaDownloader
 from ytaudio import YtAudioDownloader
 from formatchanger import FormatChanger
-from helpmsg import m_call
+from Helpmsg import m_call
 
 init(autoreset=True)
 

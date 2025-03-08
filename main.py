@@ -2,7 +2,7 @@ from colorama import Fore, Style, init
 import time
 import os
 from Sys.sora import sora
-from insta import InstaMediaDownloader
+
 from ytaudio import YtAudioDownloader
 from formatchanger import FormatChanger
 from Helpmsg import m_call
@@ -58,6 +58,7 @@ while True:
         else:
             print(Fore.RED + f"Conversion failed: {error_message}")
     elif choice == "2":
+        from sysadminx.InstaMediaDownloader import InstaMediaDownloader
         i = InstaMediaDownloader()
         media_link = input("Enter Instagram media link: ")
         output_path = input("Enter output directory: ")

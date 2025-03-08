@@ -2,7 +2,6 @@ from colorama import Fore, Style, init
 import time
 import os
 from Sys.sora import sora
-from videotoaudio import VideoToAudioConverter
 from insta import InstaMediaDownloader
 from ytaudio import YtAudioDownloader
 from formatchanger import FormatChanger
@@ -43,6 +42,7 @@ while True:
         print(Fore.RED + "Terminated")
         break
     elif choice == "1":
+        from sysadminx.VideoToAudioConverter import VideoToAudioConverter
         converter = VideoToAudioConverter()
 
         video_path = input("Enter the path to the video file: ")

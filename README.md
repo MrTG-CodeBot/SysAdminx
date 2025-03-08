@@ -27,7 +27,6 @@ A comprehensive Python toolkit for downloading and converting various media type
 
 - [Usage Examples](#usage-examples)
 - [Limitations](#limitations)
-- [Contributing](#contributing)
 - [License](#license)
 
 

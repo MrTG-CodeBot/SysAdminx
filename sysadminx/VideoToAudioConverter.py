@@ -1,5 +1,9 @@
 import os
-from moviepy import VideoFileClip
+try:
+    from moviepy import VideoFileClip
+except ImportError:
+    print("Run this command pip3 install -U -r requirements.txt")
+        
 
 class VideoToAudioConverter:
     def __init__(self):
@@ -28,9 +32,7 @@ class VideoToAudioConverter:
                 print("Failed to create audio file.")
                 return None, False, "Failed to create audio file."
 
-        except ImportError:
-            print("Run this command pip install moviepy")
-            return None, False, "ImportError: Run this command pip install moviepy"
+        
         except Exception as e:
             print(f"Error converting video to audio: {e}")
             return None, False, str(e)

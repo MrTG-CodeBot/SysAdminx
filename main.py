@@ -15,6 +15,12 @@ text = """
 
  
  1 Video To Audio
+ 2 Instagram Media Downloader
+ 3 Youtube Video Downloader
+ 4 Youtube Audio Downloader
+ 5 Format Changer
+ 6 Help Message
+ 7 Exit
 """
 for line in text.splitlines():
     print(Fore.RED + line , end='\r' , flush=True)

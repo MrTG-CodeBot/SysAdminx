@@ -65,7 +65,7 @@ pip3 install -U -r requirements.txt
 Downloads audio from YouTube videos and converts them to MP3 or WAV format.
 
 ```python
-from YtAudioDownloader import YtAudioDownloader
+from sysadminx.YtAudioDownloader import YtAudioDownloader
 
 downloader = YtAudioDownloader()
 
@@ -81,7 +81,7 @@ downloader.download_youtube_audio(video_url, output_directory, audio_format)
 Converts between media formats of the same type (photo-to-photo, video-to-video, audio-to-audio).
 
 ```python
-from FormatChanger import FormatChanger
+from sysadminx.FormatChanger import FormatChanger
 
 converter = FormatChanger()
 
@@ -101,7 +101,7 @@ else:
 Downloads media from Instagram posts, reels, stories, and IGTV.
 
 ```python
-from InstaMediaDownloader import InstaMediaDownloader
+from sysadminx.InstaMediaDownloader import InstaMediaDownloader
 
 insta_downloader = InstaMediaDownloader()
 
@@ -111,9 +111,9 @@ output_directory = "./instagram_downloads"
 insta_downloader.download_instagram_media(
     post_url, 
     output_directory,
-    download_thumbnail=True,  # Download video thumbnails
-    download_caption=False,   # Don't download captions
-    delete_txt_files=True     # Delete text files after download
+    download_thumbnail=True,  
+    download_caption=False,   
+    delete_txt_files=True    
 )
 
 reel_url = "https://www.instagram.com/reel/EXAMPLE_REEL_ID/"
@@ -128,7 +128,7 @@ insta_downloader.download_instagram_media(story_url, output_directory)
 Extracts audio from video files.
 
 ```python
-from VideoToAudioConverter import VideoToAudioConverter
+from sysadminx.VideoToAudioConverter import VideoToAudioConverter
 
 converter = VideoToAudioConverter()
 

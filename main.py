@@ -3,7 +3,6 @@ import time
 import os
 from Sys.sora import sora
 
-from ytaudio import YtAudioDownloader
 from formatchanger import FormatChanger
 from Helpmsg import m_call
 
@@ -75,6 +74,7 @@ while True:
         i.download_instagram_media(media_link, output_path)
 
     elif choice == "3":
+        from sysadminx.YtAudioDownloader import YtAudioDownloader
         yt = YtAudioDownloader()  
         video_link = input("Enter YouTube video link: ")
         output_path = input("Enter output directory: ")
@@ -92,8 +92,7 @@ while True:
         yt.download_youtube_audio(video_link, output_path, audio_format)
 
     elif choice == "4":
-
-
+        
         print(h)
 
         print("Entering the path you should add the extension also")

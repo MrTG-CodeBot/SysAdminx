@@ -7,5 +7,5 @@ __all__ = [
     'InstaMediaDownloader',
     'VideoToAudioConverter',
     'YtAudioDownloader',
-    'FormatChanger',
+    'FormatChanger'
 ]

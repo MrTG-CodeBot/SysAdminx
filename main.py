@@ -18,7 +18,8 @@ text = """
  2 Instagram Media Downloader
  3 Youtube Audio Downloader
  4 Format Changer
- 5 Help Message
+ 5 Docx To Pdf converter
+ 6 Help Message
  0 Exit
 """
 h = """ 
@@ -108,6 +109,19 @@ while True:
         if result:
             print(f"File copied successfully: {input_file} -> {output_file}")
     elif choice == "5":
+        from sysadminx.Docs2pdf import Docs2pdf
+        g = Docs2pdf()
+        ipath = input("Enter the path of the Docx file to change the format to pdf: ")
+        opath = input("Enter the path to save the file: ")
+
+        ipath = ipath.strip('"')
+        opath = output_file.strip('"') 
+        success = g.convert2pdf(ipath, opath)
+        if success:
+           print("Done")
+        else:
+           print("Error occured")
+    elif choice == "6":
         m_call()
     else:
         print(Fore.RED + "Invalid choice")

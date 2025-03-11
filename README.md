@@ -35,6 +35,7 @@ A comprehensive Python toolkit for downloading and converting various media type
 - Convert between media formats (photos, videos, audio)
 - Download Instagram posts, reels, stories, and IGTV videos
 - Extract audio from video files
+- Convert the Docx to pdf formats
 
 ## Installation
 

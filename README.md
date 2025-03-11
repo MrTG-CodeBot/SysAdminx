@@ -22,11 +22,10 @@ A comprehensive Python toolkit for downloading and converting various media type
 - [Format Changer](#format-changer)
 - [Instagram Media Downloader](#instagram-media-downloader)
 - [Video to Audio Converter](#video-to-audio-converter)
+- [Docx to Pdf converter](#docx-to-pdf-converter)
 
 
 
-- [Usage Examples](#usage-examples)
-- [Limitations](#limitations)
 - [License](#license)
 
 

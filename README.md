@@ -144,6 +144,22 @@ else:
     print(f"Error: {error_message}")
 ```
 
+### Docx to Pdf Converter
+
+Convert the DOcx file to Pdf 
+
+```python
+from sysadminx.Docs2pdf import Docs2pdf
+
+converter = Docs2pdf()
+
+success = converter.convert2pdf(input_path, output_path)
+if success:
+   print("Done")
+else:
+   print("Error occured")
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/MrTG-CodeBot/SysAdminx/blob/main/LICENSE) file for details.
